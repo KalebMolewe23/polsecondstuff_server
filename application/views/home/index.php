@@ -25,12 +25,14 @@
             </li>
             <li><a class="active" href="<?= base_url("home"); ?>">Home</a></li>
             <li><a href="<?= base_url("home/produk"); ?>">Produk</a></li>
+            <li id="lg-bag"><a href="<?= base_url("auth"); ?>"><i class="fas fa-shopping-cart"></i></a></li>
             <li><a href="<?= base_url("home/about"); ?>">About</a></li>
             <li><a href="<?= base_url("auth"); ?>">Login</a>/<a href="<?= base_url("auth/register"); ?>">Register</a></li>
             <a href="#" id="close"><i class="fas fa-times"></i></a>
         </ul>
     </div>
     <div id="mobile">
+        <a href=""><i class="fas fa-shopping-cart"></i></a>
         <i id="bar" class="fas fa-outdent"></i>
     </div>
 </section>
